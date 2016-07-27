@@ -6,12 +6,12 @@ from codecs import open
 from os import path
 
 setup(
-    name='indidaDND',
+    name='indiaDND',
     packages = ['indiaDND'],
-    version='0.1.0',
+    version='0.2.0',
     description='A python project to detect whether a given indian mobile number is DND(Do Not Disturb) mode or not',
     url='https://github.com/RoadToNaukri/indiaDndPython',
-    download_url = 'https://github.com/RoadToNaukri/indiaDndPython/tarball/0.1.0',
+    download_url = 'https://github.com/RoadToNaukri/indiaDndPython/tarball/0.2.0',
     author='RoadToNaukri.com',
     author_email='tech@roadtonaukri.com',
     license='MIT',
@@ -24,6 +24,7 @@ setup(
         'Programming Language :: Python :: 2',
         
     ],
-    keywords=['DND india','DND'],
-    install_requires=['beautifulsoup4']
+    keywords=['DND india','DND','india'],
+    install_requires=['beautifulsoup4'],
+    
 )
